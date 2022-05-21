@@ -1,0 +1,489 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+p {
+    color:
+        rgb(78, 78, 78);
+    line-height:
+        24px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+
+}
+
+nav span {
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0px 10px;
+    align-items: center;
+
+}
+
+.nav-item a {
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.5;
+    overflow: hidden;
+}
+
+
+
+header {
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-caption {
+    width: 80%;
+    text-align: center;
+}
+
+.header-caption h1 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    padding: 15px 0px 5px 0px;
+    color: #fff;
+}
+
+.header-caption p {
+    font-size:
+        40px;
+    line-height:
+        60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header-caption p::after {
+    content: "";
+    animation-name: typed;
+    animation-duration: 5s;
+    animation-play-state: inherit;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+@keyframes typed {
+
+    0% {
+        content: ""
+    }
+
+    1% {
+        content: "|"
+    }
+
+    4% {
+        content: "|"
+    }
+
+    8% {
+        content: "e|"
+    }
+
+    12% {
+        content: "ev|"
+    }
+
+    16% {
+        content: "eve|"
+    }
+
+    20% {
+        content: "evel|"
+    }
+
+    24% {
+        content: "evelo|"
+    }
+
+    28% {
+        content: "evelop|"
+    }
+
+    32% {
+        content: "evelope|"
+    }
+
+    36% {
+        content: "eveloper|"
+    }
+
+    40% {
+        content: "evelope|"
+    }
+
+    44% {
+        content: "evelp|"
+    }
+
+    48% {
+        content: "evel|"
+    }
+
+    52% {
+        content: "evl|"
+    }
+
+    56% {
+        content: "ev|"
+    }
+
+    60% {
+        content: "e|"
+    }
+
+    64% {
+        content: "es|"
+    }
+
+    68% {
+        content: "esi|"
+    }
+
+    72% {
+        content: "esig|"
+    }
+
+    76% {
+        content: "esign|"
+    }
+
+    80% {
+        content: "esigne|"
+    }
+
+    84% {
+        content: "esigner|"
+    }
+
+    88% {
+        content: "esigner"
+    }
+
+    92% {
+        content: "esigner|"
+    }
+
+    96% {
+        content: "esigner"
+    }
+
+    100% {
+        content: "esigner|"
+    }
+
+}
+
+
+
+
+/* about */
+.about span {
+    color:
+        rgb(78, 78, 78);
+    line-height:
+        24px;
+}
+
+.progress {
+    margin: 10px 0px;
+}
+
+.about-title {
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 500;
+}
+
+.about-title::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.about-caption p {
+    color:
+        rgb(78, 78, 78);
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 16px;
+
+}
+
+
+
+
+/*  
+
+*/
+.title h3 {
+    font-size: 48px;
+    color: rgb(30, 30, 30);
+    line-height: 57.6px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.title p::after {
+    /* content: "";
+    position: absolute; */
+    /* height: 3px; */
+    background-color: #0078ff;
+
+    /* bottom: -12px; */
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    width: 40px;
+    height: 5px;
+    transform: translate(-50%);
+}
+
+/*  */
+
+.services-contant h2 {
+    font-size: 22.4px;
+    font-weight: 500;
+    color: rgb(30, 30, 30);
+    line-height: 26.88px;
+}
+
+.services-icon i {
+    margin-top: 20px;
+    padding: 30px 30px;
+    box-shadow: 0 0 0 10px rgb(0, 120, 255);
+    border-radius: 50%;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+
+.services-box:hover i {
+    /* padding: 40px 40px; */
+    color: #fff;
+    background-color: rgb(0, 120, 255);
+    border: 0px solid rgb(0, 120, 255);
+    box-shadow: 0 0 0 10px rgba(0, 120, 255, 0.6);
+}
+
+/*  */
+
+.nembers {
+    background-image: url(../img/counters-bg.jpg);
+}
+
+.overlayer {
+    background-color: rgba(0, 120, 255, 0.4);
+}
+
+.counter-icon i {
+    margin-top: 20px;
+    padding: 15px 15px;
+    box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 50%;
+    font-size: 32px;
+    /* line-height:48px; */
+    color: #fff;
+}
+
+.counter-text p {
+    font-size: 32px;
+    line-height: 48px;
+    color: rgb(255, 255, 255);
+}
+
+/*  */
+
+.card-text p {
+    font-size: 12.8px;
+}
+
+.work-box {
+    overflow: hidden;
+}
+
+.work-box img {
+    transition: all 0.5s;
+}
+
+.work-box:hover img {
+    width: 120%;
+}
+
+/*  */
+.card-icon i {
+    color: rgb(0, 120, 255);
+
+
+}
+.work-box{
+    overflow: hidden;
+}
+.work-box img{
+    transition: all 0.5s;
+}
+.work-box:hover img{
+ zoom: 25%;
+}
+/*  */
+
+.testimonials {
+    background-image: url(../img/counters-bg.jpg);
+}
+
+.test-overlayer {
+    background-color: rgba(0, 120, 255, 0.4);
+}
+
+.testimonials-card p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 50px;
+}
+
+.carousel-indicators button {
+    width: 20px;
+    /* height: 35px; */
+    padding-top: 30px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    margin: 0px 5px;
+}
+
+.card-footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card-Name {
+    transition: all 0.5s;
+}
+
+.card :hover .card-Name {
+    color: #0078ff;
+    cursor: pointer;
+}
+
+.card-title {
+    transition: all 0.5s;
+}
+
+.card :hover .card-title {
+    color: #0078ff;
+    cursor: pointer;
+}
+
+
+/* contact */
+
+.contact {
+    background-image: url(../img/overlay-bg.jpg);
+}
+
+.overlay {
+    background-color: rgba(0, 120, 255, 0.8);
+}
+
+.contact-text p {
+    font-size: 20px;
+    line-height: 30px;
+    color:
+        rgb(78, 78, 78);
+    font-weight: 300;
+}
+
+
+.contact-text p span {
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.icons i {
+    margin: 10px 10px;
+    padding: 15px 15px;
+    box-shadow: 0 0 0 5px rgb(0, 120, 255);
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.5s;
+
+}
+
+.icons i:hover {
+    color: #fff;
+    background-color: rgb(0, 120, 255);
+    border: 0px solid rgb(0, 120, 255);
+    box-shadow: 0 0 0 5px rgba(0, 120, 255, 0.4);
+}
+
+.contact-text p i {
+    color: #0078ff;
+    margin-right: 5px;
+}
+
+
+/* footer */
+footer {
+    background-color: rgb(0, 120, 255);
+}
+
+/*  */
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #0078ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+a {
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
